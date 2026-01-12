@@ -1,4 +1,4 @@
-from data_models import LOCALHOST, PORT, HTTPRequest, MethodEnum, format_http_request
+from utils import LOCALHOST, PORT, HTTPRequest, MethodEnum, format_http_request
 
 import socket
 

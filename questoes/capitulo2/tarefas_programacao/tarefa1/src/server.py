@@ -4,7 +4,7 @@ import os
 import base64
 
 from pydantic import ValidationError
-from data_models import LOCALHOST, PORT, HTTPRequest, parse_http_request, MethodEnum, HTTPResponse, format_http_response
+from utils import LOCALHOST, PORT, HTTPRequest, parse_http_request, MethodEnum, HTTPResponse, format_http_response
 from pathlib import Path
 
 
